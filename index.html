@@ -5,7 +5,7 @@
 		<title>Home</title>
 		<style>
 body {
-    background-color: rgb(170,230,255);
+    background-color: black;
 }
 @font-face {
     font-family: Buttercup;
@@ -14,6 +14,7 @@ body {
 
 h1 {
     font-family: Buttercup;
+    color: white;
 }
 
 @font-face {
@@ -27,16 +28,22 @@ h1 {
 a {
 	font-family: Orange Juice;
 	font-size: 350%;
-	color: black;
+	color: white;
 	text-decoration: none;
 	margin-right: 10px;
 }
 
 body {text-align: center;
 }
-body {background-image: <img src="images/lightanddark.jpg">;
-}
 
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
 </style>
 	</head>
 	<body>
@@ -46,6 +53,8 @@ body {background-image: <img src="images/lightanddark.jpg">;
 			<a href="photoshop.html">Photoshop</a>
 		</div>
 		<h1>"Transit umbra, lux permanet"</h1>
-		<img src="images/lightanddark.jpg" >
+		<div id="content">
+			<img src="images/lightanddark.jpg" height="1000" class="ribbon">
+		</div>
 	</body>
 </html>
