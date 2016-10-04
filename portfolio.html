@@ -19,6 +19,11 @@ body {background-color: rgb(170, 230, 255);
     src: url("Fonts/orange juice 2.ttf")
 }
 
+@font-face {
+	font-family: Roboto;
+	src: url("Fonts/Roboto-Light.ttf")
+}
+
 a {
 	font-family: Orange Juice;
 	font-size: 350%;
@@ -38,6 +43,22 @@ div {text-align: center;
 #scratchstory {text-align: center;
 }
 
+#MTvid {text-align: center;
+}
+
+#paragraph1 {
+	text-align: center;
+	font-size: 100%;
+	color: black;
+	font-family: Roboto;
+	position: absolute;
+	width: 837px;
+}
+
+#cloud {
+	position: absolute;
+}
+
 	</style>
 	<body>
 		<div id="menu">
@@ -51,6 +72,28 @@ div {text-align: center;
 			<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/121048076/?autostart=false" frameborder="0" allowfullscreen>
 			</iframe>
 		</div>
+		<div id="MouseTrap">
+			<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/121805376/?autostart=false" frameborder="0" allowfullscreen></iframe>
+    	</div>
+    	<div id="MTvid">
+	    	<video controls> 
+	    		<source src="files/videoMT.mp4" type="video/mp4"> 
+	    	</video>
+    	<div id=cloud>
+    		<img src="images/cloud.jpg" height="600">
+    		 <div id=paragraph1>
+		    	<p>
+		    		Using Scratch to create Mouse Trap was an interesting experience. 
+		    		My partner and I worked on recreating Mouse Trap, an old game you could play on ColecoVision, although we had to diminish some of the features in order to finish the project on time.
+		    		An incremental process in the game is the switching of backgrounds while the iterative process is having the mouse move on command by using the arrow keys, because the computer is forever running through that piece of code in order to keep the mouse going.
+		    		One of the major difficulties of creating the game was trying to have the mouse move continuously, but stop once it hit the walls of the maze.
+		    		 In order to accomplish this, I had to add many caveats to the code.
+		    		 It basically solved the problem, except that if you press two arrow keys at the same time the mouse flies across the screen diagonally.
+		    		 	Ian and I created the code together in order to work out problems while I took care of the backgrounds on my own and I created the sprites.  
+		    		 	It was fairly difficult, but a thoroughly interesting project that really helped me understand creating a game better.
+		    	</p>
+	    	</div>
+    	</div>
 		<div id="cat">
 			<img src="images/cat screech.gif" height="500">
 		</div>
